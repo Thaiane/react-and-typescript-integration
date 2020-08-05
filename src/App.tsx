@@ -1,11 +1,11 @@
 import React from 'react';
-import Count from './components/count'
+import CountComponent from './components/CountComponent'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Count value={12}/>
+      <CountComponent valorInicial={42}/>
     </div>
   );
 }
